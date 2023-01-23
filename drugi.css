@@ -1,0 +1,10 @@
+div p {
+    text-decoration: underline;
+}
+.crveni p {
+    color: red;
+}
+.crveni .tekst {
+    background-color: yellow;
+    font-style: italic;
+}

@@ -1,0 +1,11 @@
+p + p { /*neposredni susjedni element p od p */
+    text-transform: uppercase;
+}
+div + p + span { /*neposredni susjedni element span od p od div */
+    color: red;
+    text-transform: uppercase;
+}
+.susjed p ~ p { /*susjedni element p od p */
+    border: 3px solid red;
+    padding: 10px;
+}
